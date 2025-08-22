@@ -1,0 +1,10 @@
+thresholds:
+  latency_seconds: 3
+
+services:
+  - name: httpbin_200
+    url: https://httpbin.org/status/200
+  - name: httpbin_500
+    url: https://httpbin.org/status/500
+  - name: httpbin_delay
+    url: https://httpbin.org/delay/5
